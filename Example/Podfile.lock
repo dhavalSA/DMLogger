@@ -1,0 +1,16 @@
+PODS:
+  - DMLogger (0.1.0)
+
+DEPENDENCIES:
+  - DMLogger (from `../`)
+
+EXTERNAL SOURCES:
+  DMLogger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DMLogger: 332a1e2dd5462c7ce231af0deff87dd5b08027f9
+
+PODFILE CHECKSUM: e06ce7f9f7cc5012b592f1d447808ef4afa6e6bc
+
+COCOAPODS: 1.10.1

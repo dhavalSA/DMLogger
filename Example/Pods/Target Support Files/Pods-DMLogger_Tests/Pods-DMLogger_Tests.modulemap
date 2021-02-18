@@ -1,0 +1,6 @@
+framework module Pods_DMLogger_Tests {
+  umbrella header "Pods-DMLogger_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
