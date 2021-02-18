@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'DMLogger_Example' do
+  pod 'DMLogger', :path => '../'
+
+  target 'DMLogger_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
