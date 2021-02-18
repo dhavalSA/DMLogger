@@ -12,4 +12,8 @@ public class DMLogger{
     public static func sayHello(){
         print("Hello world!!!")
     }
+    public static func printMe(str: String){
+        print(str)
+    }
+    
 }
