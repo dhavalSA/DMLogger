@@ -7,12 +7,17 @@
 //
 
 import UIKit
-
+import DMLogger
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        DMLogger.sayHello()
+        let framworkBundle = Bundle(for: DMLogger.self)
+        let path = framworkBundle.path(forResource: "Resources", ofType: "bundle")
+        let resourceBundle = Bundle(url: URL(fileURLWithPath: path!))
+        let image = UIImage(named: "f.png", in: resourceBundle, compatibleWith: nil)
+        print(image)
     }
 
     override func didReceiveMemoryWarning() {

@@ -39,10 +39,10 @@
 		607FACE51AFB9204008FA782 /* DMLogger_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMLogger_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		861D68BC12E0B703A3828784 /* DMLogger.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DMLogger.podspec; path = ../DMLogger.podspec; sourceTree = "<group>"; };
+		861D68BC12E0B703A3828784 /* DMLogger.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DMLogger.podspec; path = ../DMLogger.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95AC104988428C6A15912ACC /* Pods-DMLogger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMLogger_Tests.release.xcconfig"; path = "Target Support Files/Pods-DMLogger_Tests/Pods-DMLogger_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9845B99D420C5AA371318D20 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		AC37431633ABC1ED0B8007C3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9845B99D420C5AA371318D20 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AC37431633ABC1ED0B8007C3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BDA119BFA4E2FE6633DF95ED /* Pods-DMLogger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMLogger_Example.debug.xcconfig"; path = "Target Support Files/Pods-DMLogger_Example/Pods-DMLogger_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D7733538316D34751B56D97A /* Pods_DMLogger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DMLogger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B20146BC5CA41FADE81FDC /* Pods-DMLogger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMLogger_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DMLogger_Tests/Pods-DMLogger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				F3B20146BC5CA41FADE81FDC /* Pods-DMLogger_Tests.debug.xcconfig */,
 				95AC104988428C6A15912ACC /* Pods-DMLogger_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
