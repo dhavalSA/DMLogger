@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         let framworkBundle = Bundle(for: DMLogger.self)
         let path = framworkBundle.path(forResource: "Resources", ofType: "bundle")
         let resourceBundle = Bundle(url: URL(fileURLWithPath: path!))
-        let image = UIImage(named: "f.png", in: resourceBundle, compatibleWith: nil)
+        let image = UIImage(named: "w.png", in: resourceBundle, compatibleWith: nil)
         print(image)
     }
 
